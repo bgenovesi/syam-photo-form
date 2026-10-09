@@ -118,11 +118,11 @@
     <label for="name">Your name <span class="opt">(optional)</span></label>
     <input type="text" id="name" name="name" placeholder="So we know who to thank" />
 
-    <label>Photos</label>
+    <label>Photos & videos</label>
     <div class="dropzone" id="dropzone">
-      <input type="file" id="photos" name="attachment" accept="image/*" multiple required />
+      <input type="file" id="photos" name="attachment" accept="image/*,video/*" multiple required />
       <div class="big">Choose photos or drag them here</div>
-      <div>You can select more than one &middot; JPG, PNG, HEIC</div>
+      <div>You can select more than one &middot; JPG, PNG, HEIC, MP4, MOV &middot; please keep videos under a minute</div>
       <div class="filelist" id="filelist"></div>
     </div>
     <p class="sizelimit">Please keep each submission under about 10&nbsp;MB (a few photos at a time) &mdash; you&rsquo;re welcome to submit more than once.</p>
@@ -131,7 +131,7 @@
     <label for="caption">A few words <span class="opt">(optional)</span></label>
     <textarea id="caption" name="caption" placeholder="A memory, a story, anything you&rsquo;d like to share&hellip;"></textarea>
 
-    <button type="submit" class="submit">Upload photos</button>
+    <button type="submit" class="submit">Upload</button>
   </form>
   <footer>Forever in our hearts.</footer>
 
